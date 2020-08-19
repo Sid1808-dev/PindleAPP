@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    
+
     <TextView
         android:id="@+id/subtitlepage"
         android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/subtitlepage"
         android:src = "@drawable/custom_background"
         tools:ignore="MissingConstraints" />
-    
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="120dp"
@@ -107,7 +107,7 @@
         android:textColor="#28336C"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/completeName"/>
-    
+
     <Button
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
@@ -141,10 +141,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSave"/>
 
-
-
-
-
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
