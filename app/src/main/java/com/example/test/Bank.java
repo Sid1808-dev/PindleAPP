@@ -102,7 +102,7 @@ public class Bank extends AppCompatActivity {
         });
 
 
-
+        //Loading the data from MainActivity to display on the Card
         loadData();
         updateData();
 

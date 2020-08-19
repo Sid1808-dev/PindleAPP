@@ -8,10 +8,12 @@ import android.content.Intent;
 import android.widget.RemoteViews;
 
 public class ExampleAppWidgetProvider extends AppWidgetProvider {
+
+    //To provide a widget for the app
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         for(int appWidgetId:appWidgetIds){
-            Intent intent = new Intent(context,Splash.class);
+            Intent intent = new Intent(context,Bank.class);
             PendingIntent pendingIntent = PendingIntent.getActivity(context,0,intent,0);
 
             RemoteViews views = new RemoteViews(context.getPackageName(),R.layout.example_widget);

@@ -8,6 +8,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.core.content.ContextCompat;
 
+//Helper class for fingerprint functionality in Splash screen
+
 public class FingerprintHandler extends FingerprintManager.AuthenticationCallback {
     Splash splash = new Splash();
     private Context context;
@@ -19,11 +21,13 @@ public class FingerprintHandler extends FingerprintManager.AuthenticationCallbac
         fingerprintManager.authenticate(cryptoObject,cancellationSignal,0,this,null);
     }
 
+    //If there is an Authentication error
     @Override
     public void onAuthenticationError(int errorCode, CharSequence errString) {
         this.update("There was an Auth error."+errString,false);
     }
 
+    //If the Authentication fails
     @Override
     public void onAuthenticationFailed() {
         this.update("Auth Failed",false);
@@ -34,6 +38,7 @@ public class FingerprintHandler extends FingerprintManager.AuthenticationCallbac
         this.update("Error"+helpString,false);
     }
 
+    //If access is granted
     @Override
     public void onAuthenticationSucceeded(FingerprintManager.AuthenticationResult result) {
         splash.access = true;

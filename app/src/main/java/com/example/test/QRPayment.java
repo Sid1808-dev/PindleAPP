@@ -32,12 +32,14 @@ public class QRPayment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_q_r_payment);
 
+        //Setting target elements
         generate = findViewById(R.id.generate);
         scan = findViewById(R.id.scan);
         text = findViewById(R.id.text);
         mytext = findViewById(R.id.mytext);
         qrcode = findViewById(R.id.qrcode);
 
+        //Generate a QR code in order to recieve payments
         generate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,6 +58,7 @@ public class QRPayment extends AppCompatActivity {
             }
         });
 
+        //Scanning functionality to pay
         scan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
