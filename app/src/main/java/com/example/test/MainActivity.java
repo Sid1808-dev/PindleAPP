@@ -77,6 +77,16 @@ public class MainActivity extends AppCompatActivity {
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String username = userName.getText().toString();
+                String completename = completeName.getText().toString();
+                if(username.isEmpty()){
+                    userName.setError("Please enter a username");
+                    userName.requestFocus();
+                }else if(completename.isEmpty()){
+                    completeName.setError("Please enter a valid Complete name");
+                    completeName.requestFocus();
+                }
+
                 //Save Data
                 SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPreferences.edit();

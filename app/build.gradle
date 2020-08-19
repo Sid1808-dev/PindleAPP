@@ -23,6 +23,9 @@ android {
 
 }
 
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
@@ -36,4 +39,6 @@ dependencies {
     //QR Code Implementation
     implementation 'com.google.zxing:core:3.2.1'
     implementation 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+    //Firebase Authentication
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
 }

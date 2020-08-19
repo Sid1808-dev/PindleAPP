@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "910313884840",
+    "firebase_url": "https://pindleapp-441c5.firebaseio.com",
+    "project_id": "pindleapp-441c5",
+    "storage_bucket": "pindleapp-441c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910313884840:android:0e7982bcf0c4393e88c69d",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910313884840-l2pt2boppdv2l7d5uefjav9lavvb8pfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB898DaAkez4qFQsM72Fl0NAPQGN87h2zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910313884840-l2pt2boppdv2l7d5uefjav9lavvb8pfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
