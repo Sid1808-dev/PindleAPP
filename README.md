@@ -31,6 +31,9 @@ After the card number is generated you can make payment using that card number. 
 To make the payment process as simple as possible so that more and more users can make use of the platform, we have also added widget functionality to the the homescreen.
 Clicking the widget lets you access the  card and you can genererate a new card number to make the payment
 
+![rename](https://user-images.githubusercontent.com/60344472/90729685-934ded00-e2e4-11ea-8ab6-02f361849c7c.gif)
+
+
 
 
 
