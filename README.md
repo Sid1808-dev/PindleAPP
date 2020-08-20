@@ -23,7 +23,6 @@ We believe this technology could be a disruptive product in the currently wide m
 
 # Login
 The login to the app is made secure using fingerprint (Biometric) authentication. After you jum to the bank account login screen if you are a new user .
-https://github.com/Sid1808-dev/PindleAPP/issues/1#issue-682411931
 
 ![login](https://user-images.githubusercontent.com/60344472/90718746-5c6ddc00-e2d0-11ea-9371-d74aff289bdd.gif)
 
@@ -51,6 +50,17 @@ To make the payment process as simple as possible so that more and more users ca
 Clicking the widget lets you access the  card and you can genererate a new card number to make the payment
 
 ![rename](https://user-images.githubusercontent.com/60344472/90729685-934ded00-e2e4-11ea-8ab6-02f361849c7c.gif)
+
+# What works behind the scenes (Backend Algorithm working) 
+
+The transaction data and connection with Banks is made through UPI
+
+Our System Architecture:
+Two Basic layers of Database
+ 1. Keystore
+ 2. Pindle Library and API
+
+Freedom to use much more secure protocols than ‘Luhn Algo/Mod-10’ like SHA-1 Fuctions
 
 
 
