@@ -66,6 +66,8 @@ Freedom to use much more secure protocols than ‘Luhn Algo/Mod-10’ like SHA-1
 
 # Schematic
 
+![sche](https://user-images.githubusercontent.com/60344472/90752653-49b9ce00-e2f5-11ea-96d4-a5b2a1e42206.PNG)
+
 
 
 
