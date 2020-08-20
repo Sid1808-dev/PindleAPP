@@ -1,4 +1,5 @@
 # PindlePay ( A new way to pay)
+![Screenshot from 2020-08-20 14-41-23](https://user-images.githubusercontent.com/60344472/90754262-47587380-e2f7-11ea-9366-e5418291337a.png)
 # PINDLE stands for :
 # Payment Infrastructure for Dynamic Link Entwining
 As the name clearly suggests :
