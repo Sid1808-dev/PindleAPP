@@ -62,6 +62,10 @@ Two Basic layers of Database
 
 Freedom to use much more secure protocols than ‘Luhn Algo/Mod-10’ like SHA-1 Fuctions
 
+![sysarch](https://user-images.githubusercontent.com/60344472/90752218-be403d00-e2f4-11ea-9886-d1efc3152617.png)
+
+# Schematic
+
 
 
 
