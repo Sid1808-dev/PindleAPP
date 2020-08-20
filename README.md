@@ -25,5 +25,7 @@ So if a fraudster tries to access the account with that number he/she cannot do 
 # Payment
 After the card number is generated you can make payment using that card number. Once the payment is made this card number is disabled and new number is generated
 
+![Pay](https://user-images.githubusercontent.com/60344472/90728623-d8711f80-e2e2-11ea-8a50-dd3e6b4b4a5c.gif)
+
 
 
