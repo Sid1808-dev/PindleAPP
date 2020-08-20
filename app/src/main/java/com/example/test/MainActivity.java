@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageView);
         btnUploadpic = findViewById(R.id.btnUpload);
 
+        //Setting onclick listner for pic uploader
         btnUploadpic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -74,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Onclicklistener for Save Profile button
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -137,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //Display Image selected from the device
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
