@@ -20,3 +20,5 @@ account number of the customer in the database. The generated number becomes use
 # To note:
 So if a fraudster tries to access the account with that number he/she cannot do so.
 
+![Bank](https://user-images.githubusercontent.com/60344472/90727013-3d774600-e2e0-11ea-937c-d5ed13f2c589.gif)
+
