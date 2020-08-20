@@ -13,7 +13,7 @@ The user after biometric authentication can save his/her profile and add a usern
 
 ![main](https://user-images.githubusercontent.com/60344472/90724892-e91e9700-e2dc-11ea-96d3-d87d4d9c6d9d.gif)
 
-# Generating a unique card number at  each payment
+# Security - Generating a unique card number at  each payment
 The profile of the user is saved on to the card that is displayed.
 Everytime the user tries to make a payment, clicking the regenerate card button calls a random 16-digit number which is linked to the actual
 account number of the customer in the database. The generated number becomes useless after a payment is made.
@@ -26,6 +26,13 @@ So if a fraudster tries to access the account with that number he/she cannot do 
 After the card number is generated you can make payment using that card number. Once the payment is made this card number is disabled and new number is generated
 
 ![Pay](https://user-images.githubusercontent.com/60344472/90728623-d8711f80-e2e2-11ea-8a50-dd3e6b4b4a5c.gif)
+
+# Making payment hassle free
+To make the payment process as simple as possible so that more and more users can make use of the platform, we have also added widget functionality to the the homescreen.
+Clicking the widget lets you access the  card and you can genererate a new card number to make the payment
+
+
+
 
 
 
