@@ -1,6 +1,25 @@
 # PindlePay ( A new way to pay)
-# A walkthrough of the app Interface
+# PINDLE stands for :
+# Payment Infrastructure for Dynamic Link Entwining
+As the name clearly suggests :
+Our aim is to make the whole payment process hassle free and much more secure for the end users.
 
+# UI/UX - 
+Talking about the problem with the UI of current apps in the market, we are developing a solution to that by replicating the complete process of physical transaction into mobile application by issuing a virtual Credit/Debit card to users. Hence, making the UX similar to the physical means of payment.
+
+To eliminate the issue of going through the hassle of running the app for payment, our concentration will be to design the single or multiple Home Screen Widget(s), a physical card look-alike, protected by biometric means (i.e. fingerprint scanner).
+This solution will drastically speed up the entire process.
+
+# SECURITY - 
+Hopping over to solving the security issues with currently available Credit/Debit cards.
+Our “Dynamic Payments Card” Protocol will be changing the card number randomly in the time of every particular transaction.
+
+So a credit/debit card holder doesn’t own a particular serial number hence making the
+cloning and information theft, practically infeasible. 
+We believe this technology could be a disruptive product in the currently wide market of EMV (Europay, MaterCard, Visa) Protocol which is used by card issuing companies.
+
+
+# A walkthrough of the app Interface
 
 # Login
 The login to the app is made secure using fingerprint (Biometric) authentication. After you jum to the bank account login screen if you are a new user .
@@ -33,6 +52,11 @@ Clicking the widget lets you access the  card and you can genererate a new card 
 
 ![rename](https://user-images.githubusercontent.com/60344472/90729685-934ded00-e2e4-11ea-8ab6-02f361849c7c.gif)
 
+
+
+
+As we are currently actively working over the algorithm, logically there will be a few changes in the approach but we are working day and night to make the end product aligned with our vision.
+We will be going through the process of filing a patent only after which the algorithm’s details and approach could be disclosed.
 
 
 
