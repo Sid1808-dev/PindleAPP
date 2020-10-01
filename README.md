@@ -78,6 +78,7 @@ https://youtu.be/FgYhKHN2KTk
 
 As we are currently actively working over the algorithm, logically there will be a few changes in the approach but we are working day and night to make the end product aligned with our vision.
 We will be going through the process of filing a patent only after which the algorithm’s details and approach could be disclosed.
+Info about credit card algorithm : https://www.investopedia.com/terms/c/credit-card-encryption.asp
 
 
 
